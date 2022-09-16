@@ -1,4 +1,5 @@
-alert("hint: click the cash");
+let fullName = prompt("What's your name?")
+alert(`Hey ${fullName}. Welcome to Coding 11, we're here to chase the bag!!!`);
 let cash = 0;
 
 // BUTTON FOR WHEN YOU CLICK ON THE IMAGE
@@ -7,7 +8,7 @@ add.onclick = function(){
         cash +=1;
         document.getElementById("sum").innerHTML = cash;
     } else if(cash = 5){
-        alert("hint: click upgrade")
+        alert(`Wow ${fullName}, good job. You can finally upgrade the bag!`)
     }
 }
 
