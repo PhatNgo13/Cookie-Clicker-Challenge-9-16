@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #525343;
+}
+
+header{
+    background-color: #525343;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100px;
+}
+
+h1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10px auto 5px;
+}
+
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cookieContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border: 50px solid;
+    border-color: #525343;
+    height: 600px;
+    width: 50%;
+}
+
+button{
+    background-color: transparent;
+    border: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-right: 10px;
+}
+
+.sum{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 68px 20px;
+    font-size: xxx-large;
+    border: 10px solid;
+    border-radius: 50%;
+    color: black;
+}
+
+.upgradeContainer{
+    background-color: #383D2E;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 30px solid;
+    border-radius: 20%;
+    height: 400px;
+    width: 20%;
+    color: #383D2E;
+}
+.upgradeContainer img{
+    height: 200px;
+    margin-left: 10px;
+}
+
+.upgradeContainer h1{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 100px 20px;
+    color: black;
+}
+
+img{
+    /* padding-top: 200px; */
+    max-width: 100%;
+    height: 300px;
+    display: flex;
+}
+
